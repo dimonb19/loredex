@@ -1,0 +1,54 @@
+name: Loredex Deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Deploy static site on server
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: ${{ secrets.PORT }}
+          script: |
+            set -euo pipefail
+
+            APP_DIR="$HOME/apps/loredex"
+            TARGET_DIR="/www/loredex"
+            BUILD_OUTPUT_DIR="/tmp/loredex-dist"
+
+            cd "$APP_DIR"
+
+            echo "Pulling latest code..."
+            git fetch origin
+            git checkout main
+            git pull origin main
+
+            SHORT_SHA="$(git rev-parse --short HEAD)"
+            IMAGE_TAG="loredex-static:${SHORT_SHA}"
+
+            echo "Building static site with Docker..."
+            docker build -f Dockerfile -t "$IMAGE_TAG" .
+
+            echo "Exporting dist from container image..."
+            rm -rf "$BUILD_OUTPUT_DIR"
+            mkdir -p "$BUILD_OUTPUT_DIR"
+            ./copy_build.sh "$IMAGE_TAG" /app/dist/. "$BUILD_OUTPUT_DIR"
+
+            echo "Publishing files to Nginx web root..."
+            sudo mkdir -p "$TARGET_DIR"
+            sudo rm -rf "$TARGET_DIR"/*
+            sudo cp -a "$BUILD_OUTPUT_DIR"/. "$TARGET_DIR"/
+
+            echo "Cleaning up temporary artifacts..."
+            rm -rf "$BUILD_OUTPUT_DIR"
+            docker image rm "$IMAGE_TAG" || true
+
+            echo "Deployment completed successfully."
