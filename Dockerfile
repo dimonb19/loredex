@@ -1,11 +1,11 @@
-FROM oven/bun:1
+FROM docker.io/node
 
 WORKDIR /app
 COPY package.json .
 COPY bun.lockb .
 
-RUN bun install
+RUN npm install
 
 COPY . /app
 
-RUN bun run build
+RUN npm run build
