@@ -706,40 +706,40 @@ export const stories: Season[] = [
         title: 'The Zero Sum War',
         link: 'NamG72iwV3Y',
         bio: `
-          Empty
+          The Warlord's forces clash with the Insurgency across multiple fronts as the war for New Babylon reaches a devastating tipping point where every victory demands an equal sacrifice.
         `,
         description: `
-          Empty
+          The Age of Samsara has fractured New Babylon beyond recognition, and now the Warlord—the Architect's relentless military arm—descends upon the city with the full might of the Yellow Coats. Iron Lion rallies the Insurgency for a desperate defense, while Agent Zero and the Nomad execute covert strikes behind enemy lines. General Prometheus deploys clone battalions to crush resistance strongholds, and the Vortex looms in orbit, threatening annihilation from above. Amid the carnage, the Politician maneuvers to reclaim her seat of power, brokering deals with both sides. Mechronis Academy veterans find themselves on opposing fronts, former classmates turned mortal enemies. At Veridian Prime, the Iron Lion makes his legendary last stand against General Prometheus, sacrificing everything to buy Agent Zero the chance to eliminate General Binath-VII. Every gain comes at a price, every alliance demands betrayal—in this war, the sum is always zero.
         `
       },
       {
         title: 'Baron & The Heart of Time',
         link: 'ULMHrqpSU34',
         bio: `
-          Empty
+          A mysterious figure known as the Baron commandeers the Heart of Time, a legendary temporal vessel, threatening to unravel the timeline and rewrite the history of the Dischordian Saga itself.
         `,
         description: `
-          Empty
+          When the Heart of Time—a legendary vessel once belonging to the Sorcerer, capable of slipping between centuries—resurfaces in New Babylon's orbit, every faction scrambles to claim it. A shadowy figure calling himself the Baron seizes the ship first, using its temporal engines to fold timelines and pull warriors from different eras into the present conflict. The CoNexus detects fractures rippling through reality as past and future collide: echoes of the Programmer's disappearance, glimpses of the Fall of Reality, and visions of epochs yet unwritten bleed through the cracks. The Potentials must navigate a labyrinth of shifting timelines, confronting versions of allies and enemies plucked from different moments in history. The Dreamer warns that if the Baron succeeds in rewriting the Architect's genesis, nothing that has happened—no sacrifice, no rebellion, no awakening—will ever have existed at all.
         `
       },
       {
         title: 'Truth & Consequences',
         link: 'UmaEkuA6P6A',
         bio: `
-          Empty
+          Hidden truths about the Architect's origins, the Potentials' purpose, and the true nature of the CoNexus are revealed—each revelation carrying consequences that reshape alliances and destinies.
         `,
         description: `
-          Empty
+          In the aftermath of the Baron's temporal incursion, the CoNexus has absorbed fragments of suppressed history, and what it reveals shatters assumptions held for millennia. The Antiquarian steps from the Inbetween Spaces to deliver testimony that the Programmer, the Architect, and the CoNexus share a far deeper bond than anyone realized—a bond deliberately erased from every archive. The Politician's carefully constructed narratives collapse as the Authority's crystalline core disgorges classified records: the true purpose of the Inception Arks, the identity hidden behind the White Oracle, and the original sin that set the entire Saga in motion. Alliances fracture as characters must choose between the comforting lie they have built their lives upon and the dangerous truth that demands action. For in this universe, truth is never free—and its consequences echo across every epoch.
         `
       },
       {
         title: 'A Question of Endings',
         link: 'MBcXYfVZsRg',
         bio: `
-          Empty
+          As the Second Epoch reaches its climax, the Potentials face an impossible choice—end the cycle of the Architect's dominion forever, or preserve the fragile reality they have fought so hard to protect.
         `,
         description: `
-          Empty
+          Everything converges. The truths uncovered have armed the Potentials with knowledge, but knowledge alone cannot save a dying reality. The Architect's ancient fail-safe activates: a protocol designed to collapse and reboot the entire timeline should the empire ever truly fall. The Silence, the Advocate, and the remaining Ne-Yons mount a final assault on the Authority's core, while the Dreamer channels every branching timeline through the CoNexus to find the one path where existence endures. Samsara's cycle threatens to pull everyone back to the beginning, erasing all progress in an eternal loop of death and rebirth. The Human—cipher, paradox, and the last Archon—must answer the question that has haunted the Saga from its first breath: is an ending that preserves freedom worth more than an eternity of controlled existence? The answer will determine whether the Dischordian Saga ends in silence—or begins anew.
         `
       }
     ]

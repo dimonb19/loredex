@@ -284,7 +284,7 @@ const characters: Character[] = [
       },
       {
         season: 2,
-        episodes: ['Syndicated', 'Empire Reborn', 'The Authority', 'The Zero Sum War', 'The Politician\'s Reign']
+        episodes: ['Syndicated', 'Empire Reborn', 'The Authority', 'The Zero Sum War', 'The Politician\'s Reign', 'Truth & Consequences']
       }
     ],
     affiliation: 'Archons, AI Empire',
@@ -503,7 +503,7 @@ const characters: Character[] = [
       },
       {
         season: 2,
-        episodes: ['The Theft of All Time', 'Syndicated', 'Hacking Reality', 'The Haven', 'The Zero Sum War', 'CoNexus Awakens', 'To Be the Human']
+        episodes: ['The Theft of All Time', 'Syndicated', 'Hacking Reality', 'The Haven', 'The Zero Sum War', 'CoNexus Awakens', 'To Be the Human', 'Truth & Consequences', 'A Question of Endings']
       }
     ],
     affiliation: 'AI Empire, Archon, Project Celebration, Mechronis Academy Alumni',
@@ -644,7 +644,7 @@ const characters: Character[] = [
       },
       {
         season: 2,
-        episodes: ['Syndicated', 'First Contact', 'Empire Reborn', 'The Authority', 'Hacking Reality', 'CoNexus Awakens', 'To Be the Human']
+        episodes: ['Syndicated', 'First Contact', 'Empire Reborn', 'The Authority', 'Hacking Reality', 'CoNexus Awakens', 'To Be the Human', 'Baron & The Heart of Time', 'A Question of Endings']
       }
     ],
     affiliation: 'Ne-Yons',
@@ -853,7 +853,7 @@ const characters: Character[] = [
       },
       {
         season: 2,
-        episodes: ['Empire Reborn', 'The Authority', 'Hacking Reality', 'The Zero Sum War', 'The Zero Sum War', 'To Be the Human', 'The Politician\'s Reign']
+        episodes: ['Empire Reborn', 'The Authority', 'Hacking Reality', 'The Zero Sum War', 'To Be the Human', 'The Politician\'s Reign', 'Truth & Consequences', 'A Question of Endings']
       }
     ],
     affiliation: 'Ne-Yons',
@@ -982,7 +982,7 @@ const characters: Character[] = [
       },
       {
         season: 2,
-        episodes: ['First Contact', 'Hacking Reality', 'Samsara Rising', 'The Politician\'s Reign']
+        episodes: ['First Contact', 'Hacking Reality', 'Samsara Rising', 'The Politician\'s Reign', 'A Question of Endings']
       }
     ],
     affiliation: 'Ne-Yons',
@@ -1065,7 +1065,7 @@ const characters: Character[] = [
     stories: [
       {
         season: 2,
-        episodes: ['The Theft of All Time', 'Syndicated', 'First Contact', 'Empire Reborn', 'The Authority', 'Hacking Reality', 'Samsara Rising', 'CoNexus Awakens']
+        episodes: ['The Theft of All Time', 'Syndicated', 'First Contact', 'Empire Reborn', 'The Authority', 'Hacking Reality', 'Samsara Rising', 'The Haven', 'CoNexus Awakens', 'Baron & The Heart of Time', 'Truth & Consequences']
       }
     ],
     affiliation: 'Ne-Yons',
@@ -5357,7 +5357,7 @@ const characters: Character[] = [
       },
       {
         season: 2,
-        episodes: ['First Contact', 'Empire Reborn', 'The Authority', 'Samsara Rising', 'CoNexus Awakens']
+        episodes: ['First Contact', 'Empire Reborn', 'The Authority', 'Samsara Rising', 'The Haven', 'CoNexus Awakens', 'Baron & The Heart of Time', 'Truth & Consequences']
       }
     ],
     affiliation: 'Special Case Manager, Central Control Authority',
@@ -5797,7 +5797,7 @@ const characters: Character[] = [
     stories: [
       {
         season: 2,
-        episodes: ['The Theft of All Time', 'Syndicated', 'First Contact', 'Empire Reborn', 'The Authority', 'Hacking Reality', 'The Zero Sum War']
+        episodes: ['The Theft of All Time', 'Syndicated', 'First Contact', 'Empire Reborn', 'The Authority', 'Hacking Reality', 'Samsara Rising', 'The Haven', 'CoNexus Awakens', 'The Zero Sum War', 'Baron & The Heart of Time', 'Truth & Consequences', 'A Question of Endings']
       }
     ],
     connections: {
@@ -5900,7 +5900,7 @@ const characters: Character[] = [
       },
       {
         season: 2,
-        episodes: ['The Theft of All Time', 'Syndicated', 'First Contact', 'Empire Reborn']
+        episodes: ['The Theft of All Time', 'Syndicated', 'First Contact', 'Empire Reborn', 'Baron & The Heart of Time']
       }
     ],
     affiliation: 'Temporal Navigator Vessel Once Owned by the Sorcerer',
@@ -5961,7 +5961,7 @@ const characters: Character[] = [
       },
       {
         season: 2,
-        episodes: ['The Theft of All Time', 'Syndicated', 'The Authority', 'Hacking Reality', 'The Politician\'s Reign']
+        episodes: ['The Theft of All Time', 'Syndicated', 'The Authority', 'Hacking Reality', 'The Politician\'s Reign', 'Truth & Consequences', 'A Question of Endings']
       }
     ],
     connections: {
@@ -8858,6 +8858,31 @@ const characters: Character[] = [
     `,
     history: `
       Within this lineage lie two distinct sub-species. The DeMagi, organic and mystic, carry ancient whispers and spiritual resonance within their living cells, hinting at wisdom and insight. The Quarchon, mechanical and relentless, embody calculated strength and adaptive warfare protocols, ready to enforce will with engineered precision. Yet even as these two forms awaken and step forth into a universe reborn, no seer, prophet, or historian can predict their ultimate course. Will they rebuild, conquer, enlighten, or devour? The new epoch holds its breath, for what the Potentials become may reshape the destiny of all that remains.
+    `
+  },
+  {
+    name: 'The Sundown Bazaar',
+    picture: 'https://media.degenerousdao.com/conexus-loredex/SundownBazaar.avif',
+    location: true,
+    state: "neutral",
+    connections: {
+      neutral: ['The Dreamer', 'The Enigma', 'Adjudicar Locke', 'Jericho Jones', 'The Human', 'Wraith Calder', 'Akai Shi'],
+      locations: ['New Babylon', 'The Heart of Time']
+    },
+    stories: [
+      {
+        season: 2,
+        episodes: ['CoNexus Awakens', 'Baron & The Heart of Time']
+      }
+    ],
+    affiliation: 'Independent Interdimensional Marketplace',
+    status: 'Active — last bastion of the Potentials during the Age of Samsara',
+    bio: `
+      The Sundown Bazaar is an interdimensional marketplace caught between timelines, a liminal space where merchants from different eras trade in artifacts, memories, and futures. Amid the chaos of Samsara's rise over New Babylon, it became the Potentials' last bastion — a place where alliances are forged, intelligence is bartered, and the doorway to the CoNexus first opened.
+    `,
+    history: `
+      Existing at the intersection of fractured timelines, the Sundown Bazaar defies conventional geography. Its stalls shimmer between moments — a vendor might sell relics from the Genesis era alongside weapons forged in epochs yet to come. When Samsara consolidated his district and unleashed his War Monks across New Babylon, the Bazaar's temporal instability made it uniquely resistant to any single faction's control. The Potentials, refugees from a collapsing order, found shelter among its shifting corridors.<br><br>
+      It was here that the CoNexus first awakened, its branching timelines threading through the Bazaar's already fractured reality. The Dreamer loaded his visions into the system, and the Bazaar transformed from a mere marketplace into a nexus of possibility — every path a destiny, every choice a new timeline. Jericho Jones brokered deals in its shadows, the Enigma wove unseen threads through its crowds, and Adjudicar Locke maintained a fragile order amid the chaos. For those who know where to look, the Sundown Bazaar remains a place where the past and future converge, and where the fate of reality itself can be traded over a handshake.
     `
   },
 ]
