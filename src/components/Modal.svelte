@@ -398,7 +398,7 @@
                       <button
                         on:click={() =>
                           window.open(
-                            "https://conexus.degenerousdao.com/",
+                            "https://conexus.ink/",
                             "_blank"
                           )}>{episode}</button
                       >
